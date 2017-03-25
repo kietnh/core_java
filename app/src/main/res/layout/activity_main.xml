@@ -7,12 +7,55 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="core_java.kietnh.com.core_java.MainActivity">
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btnCompareInts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button 1"
+        android:text="Compare Integers"
+        />
+
+    <Button
+        android:id="@+id/btnCompareStrings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compare Strings"
+        />
+
+    <Button
+        android:id="@+id/btnCompareObjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compare Objects"
+        />
+
+    <Button
+        android:id="@+id/btnReferencesCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="References Count"
+        />
+
+    <Button
+        android:id="@+id/btnPrimitiveCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primitive Count"
+        />
+
+    <Button
+        android:id="@+id/btnBoxingCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boxing Count"
+        />
+
+    <Button
+        android:id="@+id/btnUnboxingCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unboxing Count"
         />
 </LinearLayout>
