@@ -58,4 +58,11 @@
         android:layout_height="wrap_content"
         android:text="Unboxing Count"
         />
+
+    <Button
+        android:id="@+id/btnLSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LSP"
+        />
 </LinearLayout>

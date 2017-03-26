@@ -106,4 +106,8 @@ public class MainActivity extends AppCompatActivity {
         double elapsed = stopWatch.getTime() / 1000.0;
         Toast.makeText(this, String.format("%s", elapsed), Toast.LENGTH_SHORT).show();
     }
+
+    @OnClick(R.id.btnLSP)
+    public void btnLSP_clicked(View view) {
+    }
 }
